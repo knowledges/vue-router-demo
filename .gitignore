@@ -1,47 +1,23 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
 
-# Folder config file
-Desktop.ini
+# Other files and folders
+.settings/
+.idea
+node_modules/
+dist/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
