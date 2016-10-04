@@ -1,0 +1,580 @@
+.headwrap{
+  width: 100%;
+  box-shadow: 0 5px 5px #f5f5f5;
+  overflow: hidden;
+}
+.header{
+  width: 1226px;
+  margin: 0 auto 18px;
+  padding-top: 18px;
+  line-height: 60px;
+  overflow: hidden;
+  h1{
+    img{
+      vertical-align: middle;
+    }
+  }
+  .header-link{
+    li{
+      float: left;
+      color: #999999;
+      font-size: 14px;
+      a{
+        color: #999999;
+        float: left;
+      }
+      b{
+        margin: 0 18px;
+        float: left;
+        font-weight: normal;
+        font-size: 12px;
+        color: #cccccc;
+      }
+    }
+  }
+}
+.content{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  clear: both;
+}
+.login-newbg {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 600px;
+}
+.login-adlink {
+  width: 1226px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+  a{
+    position: absolute;
+    width: 720px;
+    height: 520px;
+    left: 20px;
+    top: 40px;
+    /*background: red;*/
+    /*display: none;*/
+  }
+}
+.login-layout{
+  width: 1226px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  z-index: 999;
+}
+.login-con{
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  width: 350px;
+}
+.login-box{
+  width: 320px;
+  padding: 25px 20px 20px;
+  color: #6c6c6c;
+  background: #fff;
+  position: relative;
+  margin: 0 auto;
+}
+.login-form{
+  position: relative;
+}
+.login-title{
+  height: 18px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 2px;
+  margin-bottom: 28px;
+  a{
+    float: right;
+    color: #ff791f;
+  }
+}
+#J_Message{
+  width: 296px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login-msg {
+  line-height: 34px;
+  padding: 0 10px;
+  overflow: hidden;
+  width: 298px;
+  background: #fef2f2;
+  border: 1px solid;
+  border-color: #f40a0a;
+  background-color: #fee6e6;
+  color: #f40a0a;
+}
+
+.login-icon{
+  width: 16px;
+  height: 16px;
+  background: url(../images/pwd-icons-new.png) no-repeat;
+  background-position: -104px -49px;
+  margin: 9px 6px 0 0;
+}
+.login-form{
+  .item {
+    position: relative;
+    margin-bottom: 16px;
+    z-index: 1;
+  }
+  .item-fore1, .item-fore2{
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 318px;
+  }
+  .item-fore1 {
+    z-index: 6;
+    margin-bottom: 20px;
+  }
+  .item-fore2 {
+    height: 38px;
+    margin-bottom: 15px;
+  }
+  .item-fore3 {
+    z-index: 5;
+    margin-bottom: 13px;
+    ul{
+      margin-left: 18px;
+      clear: both;
+      overflow: hidden;
+    }
+    li{
+      float: left;
+      display: inline-block;
+      margin-left: 15px;
+      padding-right: 8px;
+      input{
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-right: 5px;
+        margin-top: 3px;
+        outline: none;
+      }
+    }
+  }
+  .item-fore6{
+    ul{
+      margin-left: 5px;
+      clear: both;
+      overflow: hidden;
+    }
+    li{
+      float: left;
+      margin-right: 20px;
+      img{
+        vertical-align: top;
+        margin-right: 5px;
+      }
+    }
+  }
+  .login-btn {
+    width: 319px;
+    height: 42px;
+    border: 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 42px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+    color: #fff;
+    background: #ff791f;
+    border-radius: 3px;
+    cursor: pointer;
+    zoom: 1;
+  }
+  .login-btn:hover {
+    background-color: #f7671d;
+  }
+  .item{
+    .login-label {
+      position: absolute;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      width: 38px;
+      height: 38px;
+      border-right: 1px solid #bdbdbd;
+      background: url(../img/pwd-icons-new.png) no-repeat;
+    }
+    .name-label {
+      background-position: 0 0;
+    }
+    .pwd-label {
+      background-position: -48px 0;
+    }
+  }
+  .itxt {
+    line-height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 268px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+    outline: none;
+  }
+  .item-fore1 .clear-btn,.item-fore2 .clear-btn{
+    position: absolute;
+    z-index: 20;
+    right: 6px;
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/pwd-icons-new.png) -25px -143px no-repeat;
+    cursor: pointer;
+    display: none;
+  }
+  .item-on{
+    border: 1px solid #3aa2e4;
+    .name-label{
+      border-color: #3aa2e4;
+      background-position: 0 -48px;
+    }
+    .pwd-label{
+      border-color: #3aa2e4;
+      background-position: -48px -48px;
+    }
+  }
+  .item-off{
+    border: 1px solid #e4393c;
+    .name-label{
+      border-color: #e4393c;
+      background-position: 0 -96px;
+    }
+    .pwd-label{
+      border-color: #e4393c;
+      background-position: -48px -96px;
+    }
+  }
+  .autolog {
+    position: relative;
+    color: #666;
+    span {
+      margin-right: 15px;
+    }
+    .forget-pw {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0;
+      a{
+        color: #999999;
+      }
+    }
+  }
+  .autologin{
+    float: none;
+    vertical-align: middle;
+    _vertical-align: -1px;
+    margin: 0 3px 0 0;
+    padding: 0;
+  }
+  .item-foucs{
+    border: 1px solid #3aa2e4;
+  }
+}
+
+/*找回密码*/
+.findPwd{
+  height: 660px;
+}
+.find-con{
+  width: 1226px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.pwd-state{
+  width: 726px;
+  margin: 0 auto 120px;
+  text-align: center;
+  border-top: 4px solid #cccccc;
+  position: relative;
+  ul{
+    width: 726px;
+    position: absolute;
+    top: -4px;
+    left: 0;
+  }
+  li{
+    width: 242px;
+    float: left;
+    font-size: 16px;
+    color: #cccccc;
+    position: relative;
+    border-top: 4px solid #ccc;
+    dt{
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      margin: -14px auto 15px;
+      color: #fff;
+      background: #CCCCCC;
+      border-radius: 50%;
+    }
+  }
+  li.done{
+    border-top: 4px solid #ffb180;
+    color: #ffb180;
+    dt{
+      background: #ffb180;
+    }
+  }
+  li.doing{
+    border-top: 4px solid #ff791f;
+    color: #ff791f;
+    dt{
+      background: #ff791f;
+    }
+  }
+}
+
+.pwd-action{
+  width: 460px;
+  margin: 0 auto;
+}
+.pwd-action-tel{
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  .pwd-splab{
+    float: left;
+    width: 75px;
+    line-height: 45px;
+    text-align: right;
+    font-size: 18px;
+    color: #666;
+    padding-right: 10px;
+  }
+  i{
+    font-style: normal;
+  }
+  .tips, .input-tip{
+    margin-top: 5px;
+    span{
+      font-size: 14px;
+    }
+  }
+}
+.pwd-regs .input-tip{
+  margin-left: 85px;
+}
+.pwd-action-last{
+  margin-bottom: 0;
+}
+.pwd-inp-text{
+  width: 300px;
+  border: 1px solid #CFCFCF;
+  vertical-align: middle;
+  padding: 10px 8px 10px 15px;
+  line-height: 1.5;
+  font-size: 14px;
+  outline: 0;
+  color: #666;
+  border-radius: 3px;
+}
+.pwd-inp-yz{
+  width: 160px;
+}
+.pwd-inp-next{
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #ff791f;
+  color: #Fff;
+  margin-left: 86px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.pwd-tj{
+  margin-left: 125px;
+  margin-top: 10px;
+}
+.pwd-send{
+  width: 120px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: #3AA2E4;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.pwd-sure{
+  width: 490px;
+  margin: 0 auto;
+  .pwd-splab{
+    width: 115px;
+    text-align: right;
+  }
+  p{
+    width: 270px;
+    line-height: 40px;
+    color: #999999;
+  }
+}
+.pwd-finish{
+  width: 100%;
+  text-align: center;
+  h3{
+    img{
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+  h4{
+    line-height: 60px;
+    a{
+      color: #ff791f;
+      margin-left: 10px;
+      text-decoration: underline;
+    }
+  }
+  h3,h4{
+    color: #666666;
+  }
+}
+.pwd-regs{
+  width: 410px;
+  margin-top: 20px;
+}
+.pwd-reg{
+  width: 325px!important;
+}
+.pwd-error{
+  color: #f40a0a;
+  margin-top: 8px;
+  margin-left: 86px;
+  background: url(../img/pwd-icons-new.png) no-repeat;
+  background-position: -104px -49px;
+  padding-left: 20px;
+  line-height: 16px;
+  vertical-align: top;
+}
+.G_btn_disabled{
+  color: #FFF;
+  background: #aaa;
+  cursor: default;
+}
+.pwd-green{
+  border-color: #3aa2e4;
+}
+.pwd-red{
+  border-color: #f40a0a;
+}
+.pwd-check{
+  width: 17px;
+  height: 17px;
+  float: left;
+  margin: 4px 5px 0 85px;
+  display: inline-block;
+}
+.pwd-safe{
+  margin-top: 10px;
+  clear: both;
+  margin-left: 85px;
+  b{
+    color: #666666;
+    float: left;
+    margin-top: 10px;
+  }
+  dl{
+    float: left;
+    color: #cccccc;
+    margin-right: 2px;
+    text-align: center;
+    dd{
+      width: 76px;
+      height: 6px;
+      background: #e6e6e6;
+    }
+  }
+  dl.on{
+    color: #f96c65;
+    dd{
+      background: #f96c65;
+    }
+  }
+}
+.pwd-num{
+  background: #fafafa;
+  border: 1px solid #cccccc;
+  color: #666666;
+  text-align: center;
+  line-height: 44px;
+  b{
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+.ui_input_text input[name=code]{
+  margin-right: 0;
+}
+.ui_input_text input.pwd-margin{
+  margin-right: 20px;
+}
+.input-tip-inner{
+  clear: both;
+}
+
+.footer{
+  width: 1226px;
+  margin: 15px auto 60px;
+  padding-top: 10px;
+  border-top: 1px solid #e6e6e6;
+  ul{
+    width: 100%;
+    line-height: 24px;
+    margin-bottom: 4px;
+    overflow: hidden;
+  }
+  li,li a{
+    float: left;
+  }
+  li{
+    b{
+      margin: 0 18px;
+      float: left;
+      font-weight: normal;
+      font-size: 12px;
+      color: #cccccc;
+    }
+  }
+  p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #9c9c9c;
+  }
+}
+.G_f14 { font-size:14px }
+.G_f18 { font-size:18px }

@@ -1,0 +1,126 @@
+/*!
+ laypage默认样式
+*/
+.laypage_main a, .laypage_main input, .laypage_main span {
+    height: 26px;
+    line-height: 26px
+}
+
+.laypage_main button,.laypageskin_default a {
+    background: #ff9205;
+    color: #fff!important;
+    font-size: 16px;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+}
+.laypage_main input{
+
+}
+.laypage_main {
+    font-size: 0;
+    clear: both;
+    color: #666
+}
+
+.laypage_main * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px
+}
+
+.laypage_main a {
+    text-decoration: none;
+    color: #333
+}
+
+.laypage_main a, .laypage_main span {
+    /*margin: 0 3px 6px;*/
+    padding: 5px 12px;
+}
+
+.laypage_main input {
+    width: 50px;
+    margin: 0 5px;
+    padding: 0 5px
+}
+
+.laypage_main button {
+    height: 28px;
+    line-height: 28px;
+    margin-left: 15px;
+    padding: 0 10px;
+    color: #666
+}
+
+.laypageskin_default span {
+    height: 28px;
+    line-height: 28px;
+    color: #999
+}
+
+.laypageskin_default .laypage_curr {
+    font-weight: 700;
+    color: #666
+}
+
+.laypageskin_molv a {
+    /*padding: 0 12px;*/
+    /*border-radius: 2px*/
+    border:1px solid #ccc;
+
+}
+.laypageskin_molv span{
+    padding: 6px 15px;
+    background: #FFF;
+}
+.laypageskin_molv a {
+}
+.laypageskin_molv a:hover{
+    border:1px solid #ff9205;
+    color: #ff9205;
+}
+
+.laypageskin_molv .laypage_curr {
+    background-color: #00AA91;
+    color: #fff
+}
+
+.laypageskin_molv input {
+    height: 24px;
+    line-height: 24px
+}
+
+.laypageskin_molv button {
+    height: 34px;
+    line-height: 24px;
+}
+
+.laypageskin_yahei {
+    color: #333
+}
+
+.laypageskin_yahei a, .laypageskin_yahei span {
+    padding: 0 13px;
+    border-radius: 2px;
+    color: #333
+}
+
+.laypageskin_yahei .laypage_curr {
+    background-color: #333;
+    color: #fff
+}
+
+.laypageskin_flow {
+    text-align: center
+}
+
+.laypageskin_flow .page_nomore {
+    color: #999
+}
+.laypage_prev{
+    margin-right: 15px;
+}
+.laypage_next{
+    margin-left: 15px;
+}

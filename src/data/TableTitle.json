@@ -1,0 +1,90 @@
+{
+  "name": "titles-name",
+  "version": "0.0.1",
+  "data": {
+    "array_0": [
+      {
+        "name": "车型",
+        "width": ""
+      },
+      {
+        "name": "车款",
+        "width": ""
+      },
+      {
+        "name": "外观颜色",
+        "width": ""
+      },
+      {
+        "name": "内饰颜色",
+        "width": ""
+      },
+      {
+        "name": "官方价/元",
+        "width": ""
+      },
+      {
+        "name": "优惠价/元",
+        "width": ""
+      },
+      {
+        "name": "活动时间",
+        "width": ""
+      },
+      {
+        "name": "库存/辆",
+        "width": ""
+      },
+      {
+        "name": "销售区域",
+        "width": ""
+      },
+      {
+        "name": "状态",
+        "width": ""
+      }
+    ],
+    "array_1": [
+      {
+        "name": "车型",
+        "width": ""
+      },
+      {
+        "name": "车款",
+        "width": ""
+      },
+      {
+        "name": "外观颜色",
+        "width": ""
+      },
+      {
+        "name": "内饰颜色",
+        "width": ""
+      },
+      {
+        "name": "官方价/元",
+        "width": ""
+      },
+      {
+        "name": "特价/元",
+        "width": ""
+      },
+      {
+        "name": "活动时间",
+        "width": ""
+      },
+      {
+        "name": "库存/辆",
+        "width": ""
+      },
+      {
+        "name": "销售区域",
+        "width": ""
+      },
+      {
+        "name": "状态",
+        "width": ""
+      }
+    ]
+  }
+}
